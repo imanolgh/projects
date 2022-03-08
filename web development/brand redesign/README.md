@@ -1,4 +1,6 @@
 # 06-brand-redesign-imanolgh
+github pages link: https://wustlcse204.github.io/06-brand-redesign-imanolgh/
+
 Welcome, and thank you for visiting my brand-redesign project which I created for the Web Development class I took at Washington University in St. Louis.
 The purpose of this project was to re-create and redesign a website homepage already developed by another company in a way that was more aesthetically appealing, 
 and which better considered the target-audiences it was intended for.  This project contains two files, one with HTML code, and another with CSS code.
