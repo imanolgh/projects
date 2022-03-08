@@ -1,9 +1,8 @@
 # CSE330
 Scott Sobol - 486189 - scottsobol
 Imanol Herrero - 457666 - imanolgh
-link:
 
-http://ec2-18-212-186-195.compute-1.amazonaws.com/~sfsobol/login.html?
+link:http://ec2-18-212-186-195.compute-1.amazonaws.com/~sfsobol/login.html
 
 The 3 login usernames are Case sensitive:
 
