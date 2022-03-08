@@ -1,3 +1,5 @@
+github pages link: https://wustlcse204.github.io/Final-individual-imanolgh/
+
 Welcome, and thank you for taking the time to review my final project which I created for the Web Development course I took at Washington University in St. Louis.
 In the repository you will find three files, one with HTML code, another with CSS code, and a third with Javascript code.
 The purpose of this project was to create a webpage that could display the standings and top goal-scorers of Europe's top 5 soccer leagues: 
