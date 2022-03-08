@@ -4,11 +4,14 @@ Imanol Herrero - 457666 - imanolgh
 
 link:http://ec2-18-212-186-195.compute-1.amazonaws.com/~sfsobol/login.html
 
+Thank you for taking the time to look at the file-sharing site I created along with a partner.  The purpose of this project was to create a simple file sharing site that supports uploading, viewing, and deleting files associated with various users.
+
 The 3 login usernames are Case sensitive:
 
 sfsobol
 imanolH
 randomR
+
 
 
 Our creative part of our project involves renaming a file that has been added to a users file system.
