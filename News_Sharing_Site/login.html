@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset="UTF-8">
+    <title>User Login Page</title>
+</head>
+<body>
+
+    <form action="login.php" method = POST>
+        <label for="username">Username:</label>
+        <input type ="text" id="username" name="username">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <input type="hidden" name="token" value="<?php echo $_SESSION['token'];?>" />
+        <input type="submit" value="Login" id="button1">
+
+        <br>
+        <br>
+    </form>
+
+    <form action="login_admin.php" method = POST>
+        <label for="admin_pass">Admin Password:</label>
+        <input type ="password" id="admin_pass" name="admin_pass">
+        <input type="hidden" name="token" value="<?php echo $_SESSION['token'];?>" />
+        <input type="submit" value="Login" id="button2">
+
+        <br>
+        <br>
+    </form>
+
+    <form action="view_posts_guest.php" method = POST>
+        <input type="submit" value="Continue as a Guest" id = "button3">
+
+    </form>
+
+   
+
+    <form action="registerUser.html" method = POST>
+        <input type="submit" value="Register New User" id = "button4">
+
+    </form>
+
+</body>
+</html>
