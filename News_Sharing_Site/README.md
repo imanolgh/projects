@@ -1,18 +1,10 @@
-# CSE330
-scott sobol - 486189 - scottsobol
-
-imanol herrero - 457666 - imanolgh
+# News Sharing Site Description
 
 Link: http://ec2-18-212-3-115.compute-1.amazonaws.com/~imanolgh/mod3group/login.html
 
-NOTES: 
-1) If you login as a guest when there have been no posts made, then you will see no posts or comments.
-2) When editing or deleting comments/posts, make sure to input the title of the post or comment, not the original post/comment.
-3) *LOGIN DETAILS* The admin password is "password" - very creative we know!
+Welcome to my news-sharing site I created along with a partner for my Rapid Prototype and Creative Programming course.  The purpose of this project was to create a news-sharing site that firstly allowed users to register an account with a username and password (which is hashed and salted) of their choosing.  Registered users are added to a MySQL database, managed through phpMyAdmin.  After registering and logging in, users can post links to news stories with a title and body, view all stories (including ones that they post and ones that other users post), comment on any story, and edit/delete stories they themselves post (users cannot edit/delete stories/comments that other users post).  In addition to users, stories and comments are added to the MySQL database managed through phpMy Admin, and if a post/comment is deleted from the site it is deleted from the database as well.  If a user doesn't want to register an account, they can use the site in a limited capacity by logging in as a guest.  Guests can view stories/comments that have already been posted by other users, but cannot add, edit, or delete, stories/comments of their own.  
 
-Creative Portion:
+Additionally, we added the ability for a user to log in as an administrator by inputting the admin password: "password" -- very creative I know!  A regular user cannot register their account with the password: "password" since this password is reserved for the admin to use only. In addition to being able to perform every task a regular user can do, the admin can edit/delete any stories/comments that have been posted by other users, as well as remove or un-register other users from the site.  The admin cannot remove itself as a user, and other users cannot remove the admin as a user.  In a sense, the admin is a permanent user.  Finally, if a regular user wishes to un-register themself from the site, they can do so as well.  A user can only remove themself and not other users from the database. The only person who can remove other users is the admin.  Any user who is registered or un-registered is added or removed respectively from the MySQL database.
 
--Admin functionality - The admin does not have the limitations that a normal user does. It can delete or edit any post/comment. He is also a permanent user that can make posts or comments himself. We also added the functionality to remove users which we will discuss in a second. The admin can remove any user except themself! The admin can be logged into at the login screen using the password "password". A user can not use a username and "password" to log into admin normally.
-
--Remove Users - If a user wished to delete their account they can do so via the bottom of the home screen. They do this by entering their username. A user can only remove themselves and not other users in the database. The only person who can remove other users is the admin.
+Notable collaborator: Scott Sobol, Github link: https://github.com/scottsobol
 
