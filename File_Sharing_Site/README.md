@@ -2,7 +2,7 @@
 
 Link:http://ec2-18-212-186-195.compute-1.amazonaws.com/~sfsobol/login.html
 
-Welcome to my file-sharing website that I created along with my partner.  The purpose of this project was to create a simple file sharing site that supports uploading, viewing, and deleting files associated with various users.  A user can login using one of the three usernames below:
+Welcome to my file-sharing website that I created for my Rapid Prototype and Creative Programming class I took at Washington University in St. Louis along with my partner.  The purpose of this project was to create a simple file sharing site that supports uploading, viewing, and deleting files associated with various users.  A user can login using one of the three usernames below:
 
 The 3 login usernames are case sensitive:
 
