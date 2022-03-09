@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<title>IS File Service</title>
+</head>
+<body>
+	Welcome to your file system!
+	<br><br>
+
+	<!---This line of code was taken from the course wiki for php --->
+	<form name="input" action="viewFiles.php" method="get">
+		<input type="submit" value="View Your Files"/>
+	</form>
+
+	<!---This code was taken from the course wiki for php --->
+	<form enctype="multipart/form-data" action="hub.php" method="POST">
+	<p>
+		<input type="hidden" name="MAX_FILE_SIZE" value="20000000" />
+		<label for="uploadfile_input">Choose a file to upload:</label> <input name="uploadedfile" type="file" id="uploadfile_input" />
+	</p>
+	<p>
+		<input type="submit" value="Upload File" />
+	</p>
+</form>
+</body>
+</html>
