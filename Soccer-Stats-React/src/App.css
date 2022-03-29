@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#title {
+  margin-bottom: 15px;
+}
+
+.head {
+  text-align: center;
+  width: 100%;
+  height: 14vh;
+  background-color: green;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.standing-output {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.standing-info {
+  margin: 15px 0;
+}
+
+#ind-button {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  height: 40px;
+  margin:40px;
+ 
+}
+
+
+
+
+.buttons {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+ 
+}
+
+
+
