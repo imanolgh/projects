@@ -1,1 +1,1 @@
-https://github.com/cse330-spring-2022/creativeproject-creative-project-457666-486189.git
+Click this link to access the repository for my Django-Photo-Sharing-App project: https://github.com/imanolgh/Django-Photo-Sharing-App.git
