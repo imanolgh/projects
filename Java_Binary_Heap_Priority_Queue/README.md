@@ -1,0 +1,1 @@
+This is a project that I completed in Java for a Data Structures & Algorithms course.  It implements a priority queue using a binary heap with a logarithmic time complexity.  Github repo link: https://github.com/imanolgh/Java_Binary_Heap_Priority_Queue.git
