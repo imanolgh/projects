@@ -3,3 +3,5 @@ Full stack development of a health and wellness web app for airmen/women in the 
 Here is the link to the repository containing our Java Spring Boot code on the backend, as well as our frontend React.js code:
 https://github.com/kavinbapateccalon/HEATProject.git
 
+Notable Contributor: Kavin Bapat, GitHub username - KavinBapat
+
